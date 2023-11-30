@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+#ifndef DOG_HEADER_FILE
+#define DOG_HEADER_FILE
+/*
+* struct dog - contains elements of dog.
+*/
+
+struct dog
+{
+char * name;
+double age;
+char * owner;
+};
+
+typedef struct dog dog_t;
+
+=======
 #ifndef DOG_H
 #define DOG_H
 /**
@@ -24,4 +41,5 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
+>>>>>>> e90462539fd922cab93e6d28b86832db44ca397c
 #endif
